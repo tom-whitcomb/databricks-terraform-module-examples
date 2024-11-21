@@ -9,10 +9,10 @@ module "aws-databricks" {
   iam_access_key                   = var.iam_access_key
   iam_secret_key                   = var.iam_secret_key
   region                           = var.region
-  //existing_vpc_id                  = var.existing_vpc_id
-  //databricks_az1_subnet            = var.databricks_az1_subnet
-  //databricks_az2_subnet            = var.databricks_az2_subnet
-  //public_subnet                    = var.public_subnet
+  existing_vpc_id                  = var.existing_vpc_id
+  databricks_az1_subnet            = var.databricks_az1_subnet
+  databricks_az2_subnet            = var.databricks_az2_subnet
+  public_subnet                    = var.public_subnet
 }
 
 output "workspace_url" {
