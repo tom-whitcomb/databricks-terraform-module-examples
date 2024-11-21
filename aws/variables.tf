@@ -29,7 +29,7 @@ variable "iam_secret_key" {
 variable "region" {
   type = string
 }
-/*
+
 variable "databricks_az1_subnet" {
   type = string
 }
@@ -39,4 +39,4 @@ variable "databricks_az2_subnet" {
 variable "public_subnet" {
   type = string
 }
-*/
+
