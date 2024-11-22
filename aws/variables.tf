@@ -19,7 +19,7 @@ variable "environment_prefix" {
 }
 
 variable "existing_vpc_id" {
-  type string
+  type = string
 }
 
 variable "iam_access_key" {
